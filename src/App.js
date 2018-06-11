@@ -3,7 +3,7 @@ import YTSearch from "youtube-api-search";
 import "./App.css";
 import SearchBar from "./components/search_bar";
 
-const API_KEY = process.env.YOUTUBE_API_KEY;
+const API_KEY = process.env.REACT_APP_YOUTUBE_API;
 
 class App extends Component {
   constructor(props) {
